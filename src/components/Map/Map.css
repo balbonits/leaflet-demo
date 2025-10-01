@@ -1,0 +1,17 @@
+.leaflet-popup-content-wrapper {
+  background-color: #333; /* Dark popup background */
+  color: #fff; /* White text for high contrast */
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.leaflet-popup-tip {
+  background-color: #333; /* Match popup tip */
+}
+
+.leaflet-popup-content button:focus {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
